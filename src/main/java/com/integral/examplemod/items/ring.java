@@ -5,8 +5,8 @@ import net.minecraft.item.Item;
 public class ring extends Item {
 
     public ring() {
-        this.setRegistryName("ring");
-        this.setTranslationKey("examplemod.ring");
+        this.setRegistryName("examplemod","ring");
+        this.setTranslationKey("ring");
         this.setCreativeTab(CreativeTabs.FOOD);
     }
 }
