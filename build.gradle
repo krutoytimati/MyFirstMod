@@ -78,6 +78,3 @@ artifacts {
 	archives devJar
 	archives sourcesJar
 }
-
-tasks.runClient.outputs.upToDateWhen { false }
-tasks.runServer.outputs.upToDateWhen { false }
